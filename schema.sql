@@ -1,2 +1,1 @@
-CREATE DATABASE IF NOT EXISTS practicaut8;
-USE practicaut8;
+CREATE TABLE...
