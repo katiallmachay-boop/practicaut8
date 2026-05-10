@@ -1,4 +1,4 @@
-CREATE TABLE actividades (
+CREATE TABLE IF NOT EXISTS actividad (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre_actividad VARCHAR(100) NOT NULL,
     monitor VARCHAR(100) NOT NULL,
@@ -6,12 +6,12 @@ CREATE TABLE actividades (
     plazas INT NOT NULL
 );
 
-CREATE TABLE participantes (
+CREATE TABLE IF NOT EXISTS participante (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     apellidos VARCHAR(150) NOT NULL,
     edad INT NOT NULL,
     alergia_alimentaria VARCHAR(200),
     actividad_id INT,
-    FOREIGN KEY (actividad_id) REFERENCES actividades(id)
+    FOREIGN KEY (actividad_id) REFERENCES actividad(id)
 );
