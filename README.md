@@ -133,10 +133,11 @@ Variables de entorno configuradas en Railway:
 ### Página principal
 <img width="960" height="477" alt="inicio" src="https://github.com/user-attachments/assets/522ca148-da12-4369-929c-18bc0e80875a" />
 
-
 ### Listado de Actividades
+<img width="960" height="477" alt="listado-actividades" src="https://github.com/user-attachments/assets/9e4c2c3b-5091-4ea7-8b9b-dacd1554c4cf" />
 
-
+<img width="960" height="482" alt="listado-actividades (2)" src="https://github.com/user-attachments/assets/a2a9a5d3-49e3-4a6d-92f5-6313ca37f2de" />
 
 ### Formulario Nueva Actividad
+<img width="960" height="471" alt="alta-actividad" src="https://github.com/user-attachments/assets/d4e6cef7-0bf6-44f5-a97d-68c08384823f" />
 
