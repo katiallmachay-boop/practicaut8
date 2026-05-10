@@ -12,6 +12,8 @@ public class Actividad {
     private String monitor;
     private int edadMinima;
     private int plazas;
+    private int duracion;
+
 
     @OneToMany(mappedBy = "actividad", cascade = CascadeType.ALL)
     private List<Participante> participantes;
@@ -29,4 +31,6 @@ public class Actividad {
     public void setEdadMinima(int edadMinima) { this.edadMinima = edadMinima; }
     public int getPlazas() { return plazas; }
     public void setPlazas(int plazas) { this.plazas = plazas; }
+    public int getDuracion() { return duracion; }
+    public void setDuracion(int duracion) { this.duracion = duracion; }
 }
