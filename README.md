@@ -131,6 +131,7 @@ Variables de entorno configuradas en Railway:
  `PORT`: Puerto (8080)
 ## Capturas de pantalla
 ### Página principal
+<img width="960" height="477" alt="inicio" src="https://github.com/user-attachments/assets/522ca148-da12-4369-929c-18bc0e80875a" />
 
 
 ### Listado de Actividades
